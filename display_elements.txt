@@ -1,0 +1,10 @@
+/* Display element have got 4 properties:
+
+1.display = "block";
+
+2. display = "inline";[You can not adjust height and width]
+
+
+3. display = "inline-block";[You can adjust height and width]
+
+4. display = "none";
