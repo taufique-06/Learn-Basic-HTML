@@ -1,0 +1,22 @@
+/* A few Html5 Semantics */
+
+1. <nav></nav> {It is exactly like a div}. 
+
+   We can use it top of the page. Like creating menus and things like that.
+
+
+2. <article>  
+   <p>
+   <p>
+   <p>
+   </article>
+
+3. <footer></footer> {it can be used for creating bottom of the page}
+
+4. <header></header>
+
+5. <aside></aside> {for creating side part of the webpage}
+
+6. <time> </time>
+
+7. <mark> </mark> {Gives us to highlight the text}
