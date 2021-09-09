@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Form</title>
+	<meta charset = "UTF-8">
+	</head>
+	
+	<body>
+	<form method ="GET" action ="">
+	<! -- id and for value has to be same -->
+	<div>
+		<label required = "required" for = "firstname">First Name:</label>
+		<input required = "required" type="text" id = "firstname" placeholder  = "Your First Name">
+	</div>
+	
+		<label required = "required" for = "checkbox_field">Checkbox</label>
+		<input required = "required" type = "checkbox">
+	</div>
+
+	<div>
+		<label>Radio Buttons</label>
+		<input disabled = "disabled" type = "radio" name="radio_test"> 1
+		<input type = "radio" name="radio_test"> 2
+		<input type = "radio" name="radio_test"> 3
+	</div>
+	
+	<div>
+		<label for = "">Date:</label>
+		<input type = "date" name= "date">
+	</div>
+	
+	<div>
+		<label for = "">Email:</label>
+		<input type = "email" name= "email">
+	</div>
+	
+	<div>
+		<label for = "">Hidden:</label>
+		<input type = "hidden" name= "hidden" value="is_hidden" >
+	</div>
+	
+	<div>
+		<label for = "">Number:</label>
+		<input type = "number" name= "number" step = "1.0" max = "100" min = "-100" >
+	</div>
+	
+	<div>
+		<label for = "">Password:</label>
+		<input type = "password" name= "password" placeholder = "Type Your Password">
+	</div>
+
+	<div>
+		<label for = "">File Upload</label>
+		<input type = "file" name= "file">
+	</div>
+	
+	<div>
+		<label for = "">Submit</label>
+		<input type = "submit" name= "submit">
+	</div>
+	
+	<div>
+	<! -- rows and cols basically height and width -->
+	<! -- We can use the autofocus, if you have a field to write -->
+		<textarea 
+			
+			placeholder = "Write Here" 
+			cols = "50" 
+			rows = "25" 
+			required = "required"
+			minlength = "5"
+			maxlength = "10"
+			autofocus = "autofocus"
+		
+		
+		></textarea>
+		
+	</div>
+	
+	<div>
+	<button type = "button" disabled = "disabled"> Click here</button>
+	<button type = "reset"> Reset button</button>
+	<button type = "menu"> Menu button</button>
+	<button type = "Submit"> Submit Button</button>
+	</div>
+	
+	<div>
+	<select name = "selected_item" required = "required">
+	<option value="" disabled = "disabled" required = "required">Select Items</option>
+	<option value = "option_1">Option #1</option>
+	<option value = "something_else">Option #2</option>
+	<option value = "last_option">Option #3</option>
+	</select>
+	
+	</div>
+	
+	
+	
+	</form>
+
+
+
+	</body>
+</html>
