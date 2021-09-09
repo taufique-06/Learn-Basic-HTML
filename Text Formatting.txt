@@ -1,0 +1,19 @@
+<!-- Text Formatting -->
+
+1. Text Color
+
+2. Text Alignment
+
+3. Text Decoration
+
+4. Text Transfrom
+
+5. Text Indent
+
+6. Letter spacing
+
+7. Line Height
+
+8. Direction
+
+9. Word Spacing
