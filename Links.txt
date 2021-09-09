@@ -1,0 +1,35 @@
+/* Links */
+
+1. How to open a new tab when you click on the links
+
+<a href = "" target = "_blank">
+  Click here
+</a>
+
+
+2. Internal Links
+
+Say, you are in the top of the page,
+but you wanna go to the bottom. So what you have to do is:
+
+<a href = "#bottom">Click here to go to bottom </a>
+
+<p> | </p> 
+
+<p> | </p> 
+
+<p> | </p> 
+
+<p> | </p> 
+
+<p> | </p> 
+
+<p> | </p> 
+
+<p id ="bottom"> This is bottom of the page</p>
+
+
+3. External Links
+
+ 
+
