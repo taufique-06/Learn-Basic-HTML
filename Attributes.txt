@@ -1,0 +1,10 @@
+/* Attributes */
+
+
+
+<p title="This is a title"> {Basically when hover the mouse on this line, we will see the title}
+
+   Basic Paragraph. It will have a title.
+
+</p>
+

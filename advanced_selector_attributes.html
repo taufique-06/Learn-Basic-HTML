@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Advanced Selector Attributes</title>
+	<style type="text/css">
+		label {
+			display: block;
+			margin-top: 10px;
+		}
+
+		button {
+			display: block;
+			margin-top: 20px;
+		}
+		/*Using attribute selectors*/
+		[type] {
+			border: 1px dotted blue;
+			padding: 5px;
+		}
+
+		/* Exact Value Selector Starts here */
+
+		[type="text"] {
+			border: 2px solid red;
+		}
+
+        /* Exact Value Selector Ends here */
+
+        /* Contain Value Selector Starts here */
+        	.fas.fa-envelope-square[title~="trust"]
+        	{
+        		border: 2px solid blue;
+        	}
+
+        /* Contain Value Selector Ends here */
+
+        /* "Selector Starts with" Starts here */
+        	[href^="/register"] {
+        		color: darkred;
+        		text-decoration: none;
+        	}
+        /* "Selector Starts with" Ends here */
+
+        /* "Selector Ends with" Starts here */
+        	[href$=".pdf"]{
+        		color: greenyellow;
+        		border: 1px dashed gainsboro;
+        	}
+        /* "Selector Ends with" Ends here */
+	</style>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+<div>
+<!-- Attribute Selector Starts here -->
+<form action="">
+	<label for="">Name:</label>
+		<input type="text" name="Name">
+
+	<label for="">Email:</label>
+		<input type="email" name="Email">
+ 		<i class="fas fa-envelope-square" title="You can give your email, trust us!"></i>
+		<button type="submit">Submit</button>	
+</form>
+</div>
+<!-- Attribute Selector Ends here -->
+
+<a href="/register.html">Register</a>
+<a href="/benefits.pdf">Benefits.pdf</a>
+</body>
+</html>
